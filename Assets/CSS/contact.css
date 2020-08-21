@@ -1,0 +1,358 @@
+/*---------------Global Styles---------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container {
+    width: 100%;
+    max-width: 420em;
+    margin: auto;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none;
+}
+
+/*---------------Begining of Nav Bar--------------------*/
+.main-nav {
+    width: 100%;
+    background: #1B1E21;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2em;
+    padding: 3em 4em;
+    position: fixed;
+}
+
+.main-nav .hero p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 3em;
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav .nav-list ul li {
+    padding: 0 2em;
+}
+
+.main-nav .nav-list ul li a {
+    font-size: 1.1em;
+}
+
+.main-nav .hero p a:hover,
+.main-nav .nav-list ul li a:hover {
+    color: #E48C21;
+    font-size: 1.3em;
+    transition: all 300ms ease-in-out;
+    opacity: 0.9;
+}
+
+/*------------------Nav Bar Current Page------------------*/
+nav .current a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #E48C21;    
+}
+
+nav .current a:hover {
+    font-size: 1.2em;
+    color: #ffffff !important;
+    transition: all 300ms ease-in-out;
+    opacity: 0.9;
+}
+/*--------------------End of Nav Bar------------------------*/
+
+/*----------------- Contact us Showcase---------------------*/
+.showcase {
+    width: 100%;
+    height: 42em;
+    background: url(../Images/cont-img.png) round no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase h1,
+.showcase p {
+    font-weight: bold;
+}
+
+.showcase h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding-bottom: 0.5em;
+}
+
+.showcase p {
+    font-size: 1.2em;
+    padding: 0 14em 4em 14em;
+}
+
+.showcase h1:hover {
+    cursor: pointer;
+    font-size: 2em;
+    color: #E48C21;
+    transition: all 300ms ease-in-out;
+}
+/*---------------------------End of Show case-----------------------*/
+
+/*----------You Can Reach Out-----------*/
+.aside {
+    padding-bottom: 3em;
+    height: 1em;
+    background: #ffffff;
+    color: #E48C21;
+    font-size: 1.8em;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside p span {
+    text-decoration: underline;
+}
+
+/*------------------Begining  of Grid Box Section-------------*/
+.grid {
+    background: #ffffff;
+    color: #333333;
+    display: grid;
+    grid-template-columns: 50% 35%;
+    grid-auto-rows: 40em;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.grid-box {
+     background: #E5E5E5;
+     justify-self: center;
+     height: auto;
+}
+
+/*------------------Begining  of Contact Us Form---------------*/
+.grid-box form {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 1.5em;
+    padding: 3em 3em 2em 3em;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-box form input {
+    font-family: 'Open Sans', sans-serif;
+    border:none;
+    height: 4.6em;
+    width: 33.3em;
+    border-bottom-right-radius: 0.33em;
+}
+
+.grid-box form input:hover {
+    border-radius: 0.33em;
+    border-bottom: 0.1em solid #333333;
+}
+
+.grid-box form textarea {
+    font-family: 'Open Sans', sans-serif;
+    border:none;
+    border-bottom-right-radius: 5px;
+}
+
+.grid-box form textarea:hover {
+    border-radius: 0.33em;
+    border-bottom: 0.1em solid #333333;
+}
+
+.grid-box form button {
+    background: #343F59;
+    color: #ffffff;
+    width: 15em;
+    height: 3.5em;
+    border-radius: 0.33em;
+}
+
+.grid-box form button:hover {
+    background: #343f60;
+    text-align: right;
+    width: 15.2em;
+    height: 3.7em;
+    border-radius: 0.33em;
+    opacity: 0.9;
+    transition: all 300ms ease-in-out;
+}
+/*--------------------End of Contact Us Form---------------------*/
+
+/*--------------------Nested Div on the Right--------------------*/
+.nested {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-right: 5em;
+    height: 20em;
+}
+
+/*.nested > div {
+    border: #1B1E21 1px solid;
+
+}*/
+
+.nested .box-one img {
+    width: 100%;
+    height: 100%;
+} /*-------------------------Map Image----------------------------*/
+
+.nested .box-two {
+    padding-top: 3em;
+} /*----------------------Address & Contact-----------------------*/
+
+
+
+/*-------------------Begining of Subscribe Div--------------------*/
+.subscribe {
+    background: url("../Images/cont-sub-img.png") round no-repeat;
+    background-color: #1B1E21;
+    width: 100%;
+    height: 18em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe h2 {
+    font-size: 1.6em;
+    line-height: 1.8em;
+    padding-bottom: 0.3em;
+}
+
+.subscribe p {
+    font-size: 1.15em;
+    padding-bottom: 1.1em;
+}
+
+/*------------------------Subscribe Form------------------------*/
+.subscribe form {
+    display: flex;
+}
+
+.subscribe input {
+    font-family: 'Open Sans', sans-serif;
+    height: 3.8em;
+    width: 25.6em;
+    border:none;
+    border-top-left-radius: 0.33em;
+    border-bottom-left-radius: 0.33em;
+}
+
+.subscribe input:hover {
+    border-radius: 0.33em;
+    border-bottom: 0.1em solid #333333;
+}
+
+.subscribe button {
+    background: #343F59;
+    color: #ffffff;
+    width: 15.5em;
+    height: 3.8em;
+    border-radius: 0.33em;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.subscribe button:hover {
+    background: #343f60;
+    text-align: left;
+    width: 15.2em;
+    height: 3.5em;
+    border-radius: 0.33em;
+    opacity: 0.9;
+    transition: all 300ms ease-in-out;
+}
+/*-------------------------End of Subscribe--------------------------*/
+
+
+/*------------------------------Footer Head--------------------------*/
+.footer-head {
+    background: #1B1E21;
+    color: #ffffff;
+    width: auto;
+    height: 30em;
+    display: grid;
+    width: auto;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding-top: 5em;
+    border-bottom: 0.1em solid #FFFFFF;
+}
+
+.footer-head h3 {
+    padding-bottom: 2em;
+}
+
+.footer-head a,
+.footer-head i {
+    display: flex;
+    line-height: 3.5em;
+}
+
+.footer-head a:hover {
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: #E48C21;
+    transition: all 300ms ease-in-out;
+}
+
+/*------------------------End of footer Head-----------------------*/
+
+
+/*-------------------------------Footer----------------------------*/
+footer {
+    background: #1B1E21;
+    color: #FFFFFF;
+    width: 100%;
+    height: 3em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+footer .copyrights small {
+    font-size: 1.2em;
+    line-height: 2.9em;
+    letter-spacing: 0.02em;
+}
+
+footer .social-icons {
+    display: inline-flex;
+    gap: 3em;
+}
+
+footer .social-icons  a:hover {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #E48C21;
+    transition: all 300ms ease-in-out;    
+}
