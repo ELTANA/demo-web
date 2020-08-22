@@ -140,7 +140,7 @@ nav .current a:hover {
     background: #ffffff;
     color: #333333;
     display: grid;
-    grid-template-columns: 50% 35%;
+    grid-template-columns: 50% 40%;
     grid-auto-rows: 40em;
     justify-content: center;
     margin-bottom: 5em;
