@@ -89,6 +89,7 @@ nav .current a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    vertical-align: middle;
     justify-content: center;
 }
 
@@ -191,9 +192,16 @@ nav .current a:hover {
     width: 15em;
     height: 3.5em;
     border-radius: 0.33em;
+    border: none;
 }
 
 .grid-box form button:hover {
+    background: #343f60;
+    opacity: 0.9;
+    transition: all 300ms ease-in-out;
+}
+
+.grid-box form button:active {
     background: #343f60;
     text-align: right;
     width: 15.2em;
@@ -202,6 +210,8 @@ nav .current a:hover {
     opacity: 0.9;
     transition: all 300ms ease-in-out;
 }
+
+
 /*--------------------End of Contact Us Form---------------------*/
 
 /*--------------------Nested Div on the Right--------------------*/
@@ -266,15 +276,19 @@ nav .current a:hover {
 }
 
 .subscribe input:hover {
+    background: #343F59;
+    color: #ffffff;
     border-radius: 0.33em;
     border-bottom: 0.1em solid #333333;
+    transition: all 300ms ease-in-out;
 }
 
 .subscribe button {
     background: #343F59;
     color: #ffffff;
-    width: 15.5em;
+    width: 15.4em;
     height: 3.8em;
+    border: none;
     border-radius: 0.33em;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
@@ -282,10 +296,21 @@ nav .current a:hover {
 
 .subscribe button:hover {
     background: #343f60;
+    border: none;
+    opacity: 0.9;
+    transition: all 300ms ease-in-out;
+}
+
+
+.subscribe button:active {
+    background: #343f60;
     text-align: left;
     width: 15.2em;
     height: 3.5em;
+    border: none;
     border-radius: 0.33em;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;    
     opacity: 0.9;
     transition: all 300ms ease-in-out;
 }
