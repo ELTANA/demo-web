@@ -339,6 +339,7 @@ nav .current a:hover {
 .footer-head i {
     display: flex;
     line-height: 3.5em;
+    gap: 0.5em;
 }
 
 .footer-head a:hover {
@@ -347,7 +348,6 @@ nav .current a:hover {
     color: #E48C21;
     transition: all 300ms ease-in-out;
 }
-
 /*------------------------End of footer Head-----------------------*/
 
 
