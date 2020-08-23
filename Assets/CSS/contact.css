@@ -195,14 +195,16 @@ nav .current a:hover {
     border: none;
 }
 
+
+
 .grid-box form button:hover {
-    background: #343f60;
+    background: #343F59;
     opacity: 0.9;
     transition: all 300ms ease-in-out;
 }
 
 .grid-box form button:active {
-    background: #343f60;
+    background: #343F59;
     text-align: right;
     width: 15.2em;
     height: 3.7em;
@@ -240,6 +242,7 @@ nav .current a:hover {
 /*-------------------Begining of Subscribe Div--------------------*/
 .subscribe {
     background: url("../Images/cont-sub-img.png") round no-repeat;
+    background-blend-mode: soft-light;
     background-color: #1B1E21;
     width: 100%;
     height: 18em;
@@ -275,8 +278,6 @@ nav .current a:hover {
 }
 
 .subscribe input:hover {
-    background: #343F59;
-    color: #ffffff;
     border-radius: 0.33em;
     border-bottom: 0.1em solid #333333;
     transition: all 300ms ease-in-out;
@@ -294,7 +295,7 @@ nav .current a:hover {
 }
 
 .subscribe button:hover {
-    background: #343f60;
+    background: #343F59;
     border: none;
     opacity: 0.9;
     transition: all 300ms ease-in-out;
@@ -302,7 +303,7 @@ nav .current a:hover {
 
 
 .subscribe button:active {
-    background: #343f60;
+    background: #343F59;
     text-align: left;
     width: 15.2em;
     height: 3.5em;
